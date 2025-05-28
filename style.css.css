@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header-1{
+   display: flex;
+   justify-content: space-between;
+   background-color: #f3f6f8;
+   align-items: center;
+   width: 100%;
+}
+.header-1 .icon-1{
+    width: 30px;
+    height: auto;
+    margin-left: 60px;
+    padding: 5px;
+}
+.header-1 .nav-1{
+    margin-right: 60px;
+}
+.nav-1 a{
+    padding: 15px;
+    color:black;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.header-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    background-color: white;
+}
+
+.header-2 img{
+    width: 70px;
+    height: auto;
+    margin-left: 50px;
+}
+.header-2 .center-nav{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.header-2 .right-nav{
+    display: flex;
+    align-items: center;
+}
+.center-nav h4{
+    margin-left: 25px;
+
+}
+.right-nav .search-box{
+    margin-right: 30px;
+    border-radius: 20px;
+    background-color: #f3f6f8;
+    padding: 5px;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.right-nav .cart-box{
+    margin-right: 60px;
+}
+.search-box input{
+    outline: none;
+    border: none;
+    background: none;
+    padding-left: 5px;
+    font-size: 16px;
+    
+}
+.cart-box i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.search-box i{
+    font-size: 20px;
+    padding: 3px;
+}
+
+.container-1 header{
+    text-align: center;
+    background-color: #f3f6f8;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.image-title span{
+    font-size: small;
+}
+.image-title span b{
+    text-decoration: underline;
+}
+.image-title .joinUs{
+    margin-top: 6px;
+}
+
+.img-container{
+    width: 100%;
+    padding: 0 60px;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+.container-2{
+    text-align: center;
+    margin: 40px;
+}
+.container-2 h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 70px;
+  line-height: 65px;
+  letter-spacing: -6px;
+}
+.container-2 div{
+    margin: 10px 0;   
+}
+.container-2 button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 15px;
+    border: none;
+    width: 160px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container-2 button:hover{
+    background-color: rgb(88, 86, 86);
+}
+
+.container-3 .img-cards{
+    margin-top: 20px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.img-cards .card{
+    display: inline-block;
+    margin-right: 5px;
+    width: 400px;
+    height: 650px; 
+    overflow-y: hidden; 
+}
+.img-cards .card img{
+    width: 100%;
+    height: 550px;
+}
+.container-3{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 80px;
+}
+.img-cards .card .card-title{
+    margin: 30px;
+}
+.container-3 .s-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.s-btn button{
+    width: 50px;
+    height: 50px;
+    border-radius: 24px;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    font-weight: 100;
+    background-color: rgb(238, 232, 232);
+    border: none;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+.s-btn button:hover{
+    background-color: rgb(212, 209, 209);
+}
+
+.container-3 .card-2{
+    height: auto;
+}
+.container-3 .card-2 img{
+    height: 100%;
+}
+
+.container-4{
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container-4 .images{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.container-4 .image-1{
+    background-image: url(nike.images/bg-1.avif);
+    height: 600px;
+    width: 800px;
+    margin-right: 15px;
+    background-size: cover;
+}
+.container-4 .image-2{
+    background-image: url(nike.images/bg2.avif);
+    height: 600px;
+    width: 800px;
+    background-size: cover;
+}
+.images .image-1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+.image-1 button{
+    width: 80px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.images .image-2{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+.image-2 button{
+    width: 80px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.images button:hover{
+    background-color: rgb(124, 124, 124);
+}
+.container-5{
+    margin-top: 50px;
+    padding: 0 50px;
+}
+.container-5 .video{
+    height: 100vh;
+    width: 100%;
+    margin-top: 20px;
+}
+.video video{
+    width: 100%;
+    height: 100%;
+}
+
+.container-6{
+    text-align: center;
+    margin: 40px;
+}
+.container-6 h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 70px;
+  line-height: 65px;
+  letter-spacing: -4px;
+  word-spacing: -10px;
+}
+.container-6 div{
+    margin: 10px 0;   
+}
+.container-6 button{
+    width: 80px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container-6 button:hover{
+    background-color: rgb(88, 86, 86);
+}
+.s-btn .btn-2{
+    display: flex;
+    align-items: center;
+}
+.s-btn .btn-2 h4:hover{
+    color: rgb(155, 154, 154);
+}
+.img-cards .card-3{
+    height: 100%;
+    overflow: hidden;
+}
+.img-cards .card-3 img{
+    height: 400px;
+}
+.img-cards .card-3 p{
+    padding: 5px;
+    font-weight: 600;
+}
+.card-3 p span{
+    color: gray;
+}
+
+.container-7{
+    margin-top: 50px;
+    padding: 5px 50px;
+}
+.container-7 .bg-images{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.container-7 .bg-images .image1{
+    background-image: url(nike.images/final-1.avif);
+    height: 300px;
+    width: 450px;
+    margin-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 8px;
+    background-size: cover;
+    display: inline-block;
+}
+.container-7 .bg-images .image2{
+    background-image: url(nike.images/final-2.avif);
+    height: 300px;
+    width: 450px;
+    margin-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 8px;
+    background-size: cover;
+    display: inline-block;
+}
+.container-7 .bg-images .image3{
+    background-image: url(nike.images/final-3.avif);
+    height: 300px;
+    width: 450px;
+    margin-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 8px;
+    background-size: cover;
+    display: inline-block;
+}
+.container-7 .bg-images .image4{
+    background-image: url(nike.images/final-4.avif);
+    height: 300px;
+    width: 450px;
+    margin-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 8px;
+    background-size: cover;
+    display: inline-block;
+}
+.container-7 .bg-images .image5{
+    background-image: url(nike.images/final-5.avif);
+    height: 300px;
+    width: 450px;
+    margin-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 8px;
+    background-size: cover;
+    display: inline-block;
+}
+.container-7 .bg-images .image6{
+    background-image: url(nike.images/final-6.avif);
+    height: 300px;
+    width: 450px;
+    margin-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-right: 8px;
+    background-size: cover;
+    display: inline-block;
+}
+.container-7 button{
+    color: black;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 15px;
+    border: none;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 200px;
+}
+.bg-images .image4 button{
+    color: black;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 15px;
+    border: none;
+    width: 160px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 200px;
+}
+.container-7 button:hover{
+    background-color: rgb(209, 205, 205);
+}
+.container-7 .s-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.s-btn button{
+    width: 50px;
+    height: 50px;
+    border-radius: 24px;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    font-weight: 100;
+    background-color: rgb(238, 232, 232);
+    border: none;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+.s-btn button:hover{
+    background-color: rgb(212, 209, 209);
+}
+
+
+.f-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top:70px;
+    margin-bottom: 60px;
+}
+.f-container .datas{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.f-container .datas p{
+    line-height: 30px;
+    color: rgb(83, 81, 81);
+    font-size: small;
+    font-weight: 700;
+    font-size: 14px;
+}
+.datas p span{
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+footer a select{
+    outline: none;
+    border: none;
+    width: 75px;
+    color:rgb(83, 81, 81);
+    font-weight: 700;
+    font-size: 16px;
+}
+footer a{
+    color: rgb(83, 81, 81);
+    margin: 50px 10px;
+    font-weight: 600;
+}
+footer{
+    padding: 10px 50px;
+    margin-top: 110px;
+}
